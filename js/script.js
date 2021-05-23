@@ -91,12 +91,8 @@ btn.addEventListener('click', (e) => {
     });
     
     
-    if (chk.checked != false) {
-        //alert('Добавляем любимый фильм;');
-       
+    if (chk.checked) {   
         console.log('Добавляем любимый фильм;')
     };
 
 });
-
- // And other try to git try4
